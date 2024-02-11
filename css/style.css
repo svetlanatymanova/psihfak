@@ -878,6 +878,9 @@ h1 {
 }
 
 .button__btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   background: -o-linear-gradient(43.37deg, #ab8d60 -51.7%, #c7ad7e -37.22%, #e1cb9b -21.67%, #ead097 3.74%, #e1cb9b 25.67%, #ab8d60 53.38%, #c7ad7e 66.2%, #e1cb9b 79.95%, #eed9ab 103.04%, #e1cb9b 128.45%, #ab8d60 163.1%);
   background: linear-gradient(46.63deg, #ab8d60 -51.7%, #c7ad7e -37.22%, #e1cb9b -21.67%, #ead097 3.74%, #e1cb9b 25.67%, #ab8d60 53.38%, #c7ad7e 66.2%, #e1cb9b 79.95%, #eed9ab 103.04%, #e1cb9b 128.45%, #ab8d60 163.1%);
   border-radius: 10px;
@@ -901,6 +904,64 @@ h1 {
   background-size: 160%;
   -webkit-box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.25);
+}
+
+.section-questions {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-questions__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-questions__img {
+  width: 704px;
+  height: 202px;
+}
+
+.section-questions__title {
+  margin-top: 96px;
+  font-family: Petrogradski;
+  /* остались вопросы? */
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 102%;
+  /* or 76px */
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  /* золото верное */
+  background: -o-linear-gradient(43.37deg, #ab8d60 -51.7%, #c7ad7e -37.22%, #e1cb9b -21.67%, #ead097 3.74%, #e1cb9b 25.67%, #ab8d60 53.38%, #c7ad7e 66.2%, #e1cb9b 79.95%, #eed9ab 103.04%, #e1cb9b 128.45%, #ab8d60 163.1%);
+  background: linear-gradient(46.63deg, #ab8d60 -51.7%, #c7ad7e -37.22%, #e1cb9b -21.67%, #ead097 3.74%, #e1cb9b 25.67%, #ab8d60 53.38%, #c7ad7e 66.2%, #e1cb9b 79.95%, #eed9ab 103.04%, #e1cb9b 128.45%, #ab8d60 163.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section-questions__subtitle {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #756650;
+}
+
+.section-questions__button {
+  margin-top: 55px;
+  text-align: center;
 }
 
 .footer {
